@@ -9,6 +9,6 @@ int main(void)
     printf("Enter your name: ");
     scanf("%s", name);
     feet = inch / 12;
-    printf("%s, you are %f feet tall\n", name, feet);
+    printf("%s, you are %.3f feet tall\n", name, feet);
     return 0;
 }
