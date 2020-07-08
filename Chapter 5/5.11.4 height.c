@@ -14,7 +14,8 @@ int main(void)
         inch = inch - (feet * TRANSFEET);
         printf("%.1f cm = %d feet, %.1f inches\n", cm, feet, inch);
         printf("Enter a height in centimeters: ");
-    scanf("%f", &cm);
+        scanf("%f", &cm);
     }
+    printf("bye\n");
     return 0;
 }
